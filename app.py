@@ -4,7 +4,7 @@ from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv"IBM_API_KEY"
+api_key = os.getenv("IBM_API_KEY")
 
 def convert_image_to_base64(uploaded_file):
     bytes_data = uploaded_file.getvalue()
