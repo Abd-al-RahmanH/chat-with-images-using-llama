@@ -99,7 +99,7 @@ def main():
 
         body = {
             "messages": [model_messages[-1]],
-            "project_id": "c5c830bd-6dfc-4184-b540-3cedfd51145e",
+            "project_id": "a704111f-fac0-4067-8322-4ee92815f6e4",
             "model_id": "meta-llama/llama-3-2-90b-vision-instruct",
             "decoding_method": "greedy",
             "repetition_penalty": 1,
